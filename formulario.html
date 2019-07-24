@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Formulário de Inscrição</title>
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+    </head>
+    
+    <body >
+              
+        <div class="imagem">
+            <img src="montreal-horiz-md.png" width="500" height="150">
+                </div>
+        <h1>
+            Formulário de Inscrição
+            
+                
+            
+        </h1>
+        <div>
+            
+            <p><strong>Contate-nos</strong></p>
+                
+                <p>Por favor, preencha os dados abaixo para confirmação da inscrição.</p>
+            
+    <form ction="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+         <input type="hidden" name="recipient" value="thiagomsiqueira@hotmail.com"> <!-- Pode ser qualquer endereço de email -->
+         <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+        <input type="hidden" name="subject" value="formulario de cliente">  <!-- Assunto da mensagem -->
+        <input type="hidden" name="email" value="thiagomsiqueira@hotmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+                
+                
+                <p>
+                <label for="name">Nome Completo:</label>
+                <input type="text" name="name">    
+                </p>
+                
+                <p>
+                <label for="email">Email:</label>
+                <input type="email" name="email">    
+                </p>
+            
+                <p>
+                <label for="number">Telefone:</label>
+                <input type="text" name="number">
+                </p>
+                
+                <p>
+                <label for="call">Melhor momento para ligarmos:</label>
+                <input type="radio" name="call" value="manha">Manhã
+                <input type="radio" name="call" value="tarde">Tarde
+                <input type="radio" name="call" value="noite">Noite    
+                </p>
+            
+                <p>
+                <label for="diarias">Diárias</label> 
+                <select type="list" name="diarias">
+                    <option value="blank">                   </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="7">7 </option>
+                    <option value="10">10 </option>
+                    <option value="11">11 </option>
+                    <option value="14">14 </option>
+                    <option value="15+">Outros valores**</option>
+                </select> 
+                <p>
+                <label for="numeroDiarias">**Outros Valores:</label>
+                <input type="text" name="numeroDiarias">
+                </p>   
+            
+                </p>   
+                    
+                    
+                <label for="servicos">Tipos de Quarto: </label>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" name="quarto" value="Duplo"> Duplo
+                    </td>   
+                    
+                    <td>
+                        <input type="radio" name="quarto" value="Triplo"> Triplo
+                    </td>
+                    
+                </tr> 
+                
+              
+                                   
+                    
+            </table>           
+                
+                
+                <p>
+                    
+                    
+                    <input type="submit" name="confirmar" value="Enviar">
+             
+                </p>
+            
+     </form>
+            
+            
+            
+               
+            
+        
+        </div>
+     
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
