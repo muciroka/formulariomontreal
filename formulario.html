@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
     <head>
+        <meta charset="UTF-8">
         <title>Formulário de Inscrição</title>
         <link rel="stylesheet" href="estilo.css" type="text/css">
     </head>
@@ -11,45 +12,339 @@
         <div class="imagem">
             <img src="montreal-horiz-md.png" width="500" height="150">
                 </div>
-        <h1>
-            Formulário de Inscrição
+        
+        <h1>Formulário de Adesão</h1>
+        
+         
+        <div id="dadospessoais">
             
-                
-            
-        </h1>
-        <div>
-            
-            <p><strong>Contate-nos</strong></p>
+            <h3>Dados Pessoais</h3>
                 
                 <p>Por favor, preencha os dados abaixo para confirmação da inscrição.</p>
             
-    <form ction="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
-         <input type="hidden" name="recipient" value="thiagomsiqueira@hotmail.com"> <!-- Pode ser qualquer endereço de email -->
-         <input type="hidden" name="redirect" value="http://seudominio"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
-        <input type="hidden" name="subject" value="formulario de cliente">  <!-- Assunto da mensagem -->
-        <input type="hidden" name="email" value="thiagomsiqueira@hotmail.com">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+    
                 
-                
+        <div class="b1"> 
+            
                 <p>
                 <label for="name">Nome Completo:</label>
                 <input type="text" name="name">    
                 </p>
+        
+                <p>
+                <label for="number">RG:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                    
+               
+            </p>
+        
+                <p>
+                <label for="number">CPF:</label>
+                <input type="text" name="number">    
+                </p>
+            
+            <p>
+                <label for="sexo">Sexo: </label>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" name="masculino" value="masculino"> Masculino
+                    </td>   
+                    
+                    <td>
+                        <input type="radio" name="feminino" value="feminino"> Feminino
+                    </td>
+                    
+                </tr>
+            </table> 
+        </div>
+        
+        <div class="b2">      
+                <p>
+                <label for="number">Data de Nascimento:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                <p>
+                <label for="name">Órgão Expedidor / UF:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="name">Estado Civil:</label>
+                <input type="text" name="name">    
+                </p>
+        </div>   
+        
+        <div class="b3">
                 
+        
+                <p>
+                <label for="name">Endereço:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="name">Complemento:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="number">Número:</label>
+                <input type="text" name="number">    
+                </p>
+        </div>
+
+        <div class="b4">
+                <p>
+                <label for="number">CEP:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                <p>
+                <label for="name">Bairro:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                
+        
+                <p>
+                <label for="name">Cidade / UF:</label>
+                <input type="text" name="name">    
+                </p>
+        </div>
+        
+        <div class="b5">
+                <p>  
+                <label for="name">Nome da Mãe:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="name">Dados do Cônjugue:</label>
+                <input type="text" name="name">    
+                </p>
+               
+        </div> 
+        
+        <div class="tel1">
+                <p>
+                <label for="number">Telefone Celular:</label>
+                <input type="text" name="number">
+                </p>
+        </div>  
+        
+        <div class="tel2">    
+                <p>
+                <label for="number">Telefone Residencial:</label>
+                <input type="text" name="number">    
+                </p>
+        </div>
+        
+        <div class="email">
                 <p>
                 <label for="email">Email:</label>
                 <input type="email" name="email">    
                 </p>
-            
+        </div>  
+        
+        <div class="nat">
                 <p>
-                <label for="number">Telefone:</label>
-                <input type="text" name="number">
+                <label for="name">Nacionalidade:</label>
+                <input type="text" name="name">
                 </p>
                 
                 <p>
-                <label for="call">Melhor momento para ligarmos:</label>
-                <input type="radio" name="call" value="manha">Manhã
-                <input type="radio" name="call" value="tarde">Tarde
-                <input type="radio" name="call" value="noite">Noite    
+                <label for="name">Naturalidade/UF:</label>
+                <input type="text" name="name">    
+                </p>
+        </div>    
+            
+        </div>  
+    
+    
+        <div id="dadosprofissionais">    
+        <h3>Dados Profissionais</h3>
+        
+                <label for="renda">Tipo de Vínculo: </label>
+            <table>
+                <tr>
+                    <td>
+                        <input type="radio" name="vinculo" value="autonomo"> Autônomo
+                    </td>   
+                    
+                    <td>
+                        <input type="radio" name="vinculo" value="celetista"> Celetista
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="vinculo" value="empresario"> Empresário
+                    </td>
+                    
+                    <td>
+                        <input type="radio" name="vinculo" value="profissional liberal"> Profissional Liberal
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="vinculo" value="servidor publico"> Servidor Público
+                    </td>
+                    
+                    <td>
+                        <input type="radio" name="vinculo" value="aposentado/pensionista"> Aposentado/Pensionista
+                    </td>
+                    
+                    
+                </tr> 
+        </table>
+                
+                <p>
+                <label for="name">Empresa:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="name">Setor:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="name">Cargo:</label>
+                <input type="text" name="name">    
+                </p>
+        
+                <p>
+                <label for="number">Renda:</label>
+                <input type="text" name="number">    
+                </p>
+        </div>
+    
+    
+     <div id="cartoes">  
+         
+        <div id="cartaodecredito">    
+        <h3>Forma de Pagamento: Cartão de Crédito</h3>
+        
+                <p>
+                <label for="number">Número do Cartão:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                <p>
+                <label for="name">Bandeira:</label>
+                <input type="text" name="name">    
+                </p>
+            
+        <div class="val1">
+            
+                <p>
+                <label for="validade">Validade:</label>
+                    
+                <select type="list" name="validade"> 
+                    <option value="blank">                   </option>
+                    <option value="1">1 </option>
+                    <option value="2">2 </option>
+                    <option value="3">3 </option>
+                    <option value="4">4 </option>
+                    <option value="5">5 </option>
+                    <option value="6">6 </option>
+                    <option value="7">7 </option>
+                    <option value="8">8 </option>
+                    <option value="9">9 </option>
+                    <option value="10">10 </option>
+                    <option value="11">11 </option>
+                    <option value="12">12 </option>
+                </select> 
+                </p>    
+            </div>
+               
+                
+                
+            
+            <div class="val2"> 
+                <p>
+                    <label for="validade" ></label>  
+                    
+                <select type="list" name="validade">
+                    <option value="blank">                   </option>
+                    <option value="2019">2019 </option>
+                    <option value="2020">2020 </option>
+                    <option value="2021">2021 </option>
+                    <option value="2022">2022 </option>
+                    <option value="2023">2023 </option>
+                    <option value="2024">2024 </option>
+                    <option value="2025">2025 </option>
+                    <option value="2026">2026 </option>
+                    <option value="2027">2027 </option>
+                    <option value="2028">2028 </option>
+                    <option value="2029">2029 </option>
+                    <option value="2030">2030 </option>
+                </select>    
+                </p>
+                
+            </div>  
+           
+            <div class="deb">
+                <p>
+                <label for="debito">Dia do Débito:</label>
+                <select type="list" name="debito"> 
+                    <option value="blank">                   </option>
+                    <option value="08">08 </option>
+                    <option value="20">20 </option>
+                    <option value="30">30 </option>
+                </select>    
+                </p>
+        
+                <p>
+                <label for="fatura">Dia do Vencimento da Fatura:</label>
+                <input type="text" name="number">    
+                </p>
+            </div>
+        </div>
+            
+        <div id="cartaodedebito">    
+        <h3>Forma de Pagamento: Débito em Conta</h3>
+        
+        
+                <p>
+                <label for="number">Agência:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                <p>
+                <label for="number">Conta:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                <p>
+                <label for="number">Banco:</label>
+                <input type="text" name="number">    
+                </p>
+        
+                <p>
+                <label for="debito">Dia do Débito:</label>
+                <select type="list" name="debito"> 
+                    <option value="blank">                   </option>
+                    <option value="08">08 </option>
+                    <option value="20">20 </option>
+                    <option value="30">30 </option>
+                </select>    
+                </p>
+        </div>
+    </div>   
+        <div id="categoriaPlano">    
+        <h3>Categoria do Plano e Quantidade de Diárias</h3>
+        
+                <p>
+                <label for="categoria">Categoria:</label> 
+                    <select type="list" name="categoria">
+                    <option value="blank">                   </option>
+                    <option value="tranquilidade">Tranquilidade </option>
+                    <option value="conforto">Conforto </option>  
+                    </select>    
                 </p>
             
                 <p>
@@ -59,10 +354,10 @@
                     <option value="3">3 </option>
                     <option value="4">4 </option>
                     <option value="7">7 </option>
+                    <option value="8">8 </option>
+                    <option value="9">9 </option>
                     <option value="10">10 </option>
-                    <option value="11">11 </option>
-                    <option value="14">14 </option>
-                    <option value="15+">Outros valores**</option>
+                    <option value="11+">Outros valores**</option>
                 </select> 
                 <p>
                 <label for="numeroDiarias">**Outros Valores:</label>
@@ -89,25 +384,29 @@
                                    
                     
             </table>           
+        </div>        
                 
-                
+            <div class="confirmar">
                 <p>
-                    
-                    
-                    <input type="submit" name="confirmar" value="Enviar">
+                    <input type="submit" name="submit" value="Enviar">
              
                 </p>
-            
-     </form>
+            </div>
+     
             
             
             
                
             
         
-        </div>
+       
      
     </body>
+
+
+
+
+
 
 
 
