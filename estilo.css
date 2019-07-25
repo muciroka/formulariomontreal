@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    width: 960px;
+    width: 1080px;
 }
 
 h1{ 
@@ -20,7 +20,158 @@ width: 400px;
 
 } 
 
+h3{ 
+color: #8B0000;
+
+
+}
+    
+
 label{
 display: inline-block;
 width:150px;
-} 
+    
+}
+
+#input{
+
+}
+
+#dadospessoais{ 
+width: 900px;
+height: 640px;
+
+}
+
+#cartoes{
+  width: 900px; 
+    height: 255px
+}
+#cartaodecredito{
+width:460px;
+float: left; 
+display: inline-block;
+border-right: solid;
+border-color: #8B0000;
+}
+
+#cartaodedebito{
+width:400px;
+display: inline-block;
+padding: 0 0 0 20px;
+float: 
+
+}
+
+#categoriaPlano{
+width: 400px;    
+display: inline-block;
+float: left;
+clear: both    
+}
+
+.b1{
+    position: relative;
+	width: 200px;
+	float: left;
+    display: inline-block;
+}
+
+.b2 { 
+    position: relative;
+	width: 200px;
+	float: left;
+    display: inline-block;
+    border-right: solid;
+    border-color: #8B0000;
+}
+
+.b3 {
+    position: relative;
+	width: 200px;
+	float: left;
+    display: inline-block;
+    clear: both;
+}
+
+.b4{
+    position: relative;
+	width: 200px;
+	float: left;
+    display: inline-block;
+    
+}
+
+.b5{
+  display: inline-block;
+  padding: 0 0 0 20px;    
+}
+
+.tel1{
+display: inline-block;
+ position: relative;
+ width: 200px;
+  clear: both; 
+    float: left
+	
+}
+
+.tel2{
+    
+display: inline-block;
+ position: relative;
+ width: 200px;
+ clear: both;
+    float: left
+ 
+}
+
+.email{ 
+display: inline-block;
+position: relative;
+ width: 200px;
+ float: left;
+clear: both;
+}
+
+.nat{
+display: inline-block;
+position: relative;
+width: 400px;
+padding: 0 0 0 20px;  
+
+}
+
+.val1{
+width: 40px;
+display: inline-block;
+position:relative;
+float: left;
+clear: both;
+    
+}
+
+.val2 {
+width: 80px;
+display: inline-block;
+position: relative;  
+float: left;
+}
+
+.deb{
+    position: relative;
+	width: 200px;
+	float: left;
+    display: inline-block;
+    clear: both;
+
+}
+
+.confirmar{
+    
+    position: relative;
+	width: 100px;
+	float: left;
+    display: inline-block;
+    clear: both;
+}
